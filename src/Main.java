@@ -1,8 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        String[] myArr={"ahmet", "ayşe", "mehmet"};
-        String alfabeSirasi="defgauğıvijçklümnocöprsyhbştz";
-        System.out.println(SiraKontrol.siraKontrol(myArr,alfabeSirasi));
+        //*? Kelime dizisinin girisi.
+        String[] kelimeler = {"ahmet", "ayşe", "mehmet"};
+
+        //*? Alfabe siralamasi.
+        String alfabeSirasi = "defgauğıvijçklümnocöprsyhbştz";
+        
+        System.out.println(SiraKontrol.siraKontrol(kelimeler, alfabeSirasi));
     }
 
 }
